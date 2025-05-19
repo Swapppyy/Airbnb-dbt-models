@@ -90,3 +90,5 @@ dbt docs generate
 dbt docs serve
 ```
 
+These commands will check for connections, push seeds and run dbt models in snowflake!
+dbt test, dbt docs generate and dbt docs serve will create a server for documentation for these models and showcase dependencies and DAG.
